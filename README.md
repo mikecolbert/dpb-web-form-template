@@ -15,7 +15,7 @@ Basic structure for starting a Flask web form project with Jinja templates
 5. Create a new virtual environment
 
    - Windows: `python -m venv ./venv`
-   - Mac: `python -m venv ./venv`
+   - Mac: `python3 -m venv ./venv`
 
 6. Activate the new virtual environment
 
