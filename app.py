@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
-friend_list = [
+friends_dict = [
     {"name": "Test", "flavor": "swirl", "read": "yes", "activities": "reading"}
 ]
 
@@ -10,7 +10,7 @@ friend_list = [
 @app.route("/", methods=["GET", "POST"])
 def index():
     return render_template(
-        "index.html", pageTitle="Web form template", friends=friend_list
+        "index.html", pageTitle="Web form template", friends=friends_dict
     )
 
 
@@ -24,22 +24,27 @@ def add():
         fname = form["fname"]
         flavor = form["flavor"]
         read = form["read"]
-        # activities = form["activites"]
-        # print(request.form.getlist("activites"))
+        activities = form.getlist("activities")  # this is a PYthon list
+
         print(fname)
         print(flavor)
         print(read)
-        # print(activities)
+        print(activities)
+
+        activities_string = ", ".join(activities)  # make the Python list into a string
 
         friend_dict = {
             "name": fname,
             "flavor": flavor,
             "read": read,
-            #   "activities": activities,
+            "activities": activities_string,
         }
+
         print(friend_dict)
-        friend_list.append(friend_dict)
-        print(friend_list)
+        friends_dict.append(
+            friend_dict
+        )  # append this dictionary entry to the larger friends dictionary
+        print(friends_dict)
         return redirect(url_for("index"))
     else:
         return redirect(url_for("index"))

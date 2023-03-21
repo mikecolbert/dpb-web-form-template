@@ -11,7 +11,7 @@
     <p>
       <label for="ice-cream">
         Favorite flavor of ice cream:
-        <select name="flavor" id="ice-cream">
+        <select name="flavor" id="ice-cream" required>
           <option value="" selected>Choose one ...</option>
           <option value="vanilla">Vanilla</option>
           <option value="chocolate">Chocolate</option>
@@ -22,11 +22,25 @@
     <p>
       <label>Do you read for fun?</label>
       <label for="read-yes">
-        <input type="radio" id="read-yes" name="read" value="yes" /> Yes
+        <input
+          type="radio"
+          id="read-yes"
+          name="read"
+          value="yes"
+          required="required"
+        />
+        Yes
       </label>
 
       <label for="read-no">
-        <input type="radio" id="read-no" name="read" value="no" /> No
+        <input
+          type="radio"
+          id="read-no"
+          name="read"
+          value="no"
+          required="required"
+        />
+        No
       </label>
     </p>
 

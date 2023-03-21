@@ -39,4 +39,8 @@ Basic structure for starting a Flask web form project with Jinja templates
 
 ### TO-DO
 
-- [ ] Catch all selected activities in /add and put them into the list
+- [x] Catch all selected activities in /add and put them into the python dictionary
+- [ ] Create a confirmation page before submitting
+- [ ] Submit records to database
+- [ ] Delete a record
+- [ ] Update a record
