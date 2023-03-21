@@ -36,3 +36,7 @@ Basic structure for starting a Flask web form project with Jinja templates
 11. Create and change to a new local development branch `git checkout b development`
 
 12. Continue working with the project as you normally would.
+
+### TO-DO
+
+- [ ] Catch all selected activities in /add and put them into the list
