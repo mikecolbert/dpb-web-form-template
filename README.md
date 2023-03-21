@@ -26,8 +26,8 @@ Basic structure for starting a Flask web form project with Jinja templates
 
 8. Run the program using either:
 
-   - flask run
-   - python app.py
+   - `flask run`
+   - `python app.py`
 
 9. Test the application by visiting it in your web browser
 
