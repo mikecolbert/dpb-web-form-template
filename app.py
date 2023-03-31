@@ -52,7 +52,7 @@ def add():
 
 @app.route("/about", methods=["GET"])
 def about():
-    return render_template("about.html", pageTitle="Pair programming")
+    return render_template("about.html", pageTitle="Pair programming team")
 
 
 if __name__ == "__main__":
