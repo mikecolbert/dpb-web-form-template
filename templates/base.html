@@ -15,6 +15,12 @@
   </head>
 
   <body>
-    <div class="container">{% block body %}xx {% endblock %}</div>
+    <div class="container">
+      <nav>
+        <nav><a href="/">Home</a> | <a href="/about">About</a></nav>
+      </nav>
+
+      {% block body %} {% endblock %}
+    </div>
   </body>
 </html>
