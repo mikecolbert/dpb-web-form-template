@@ -49,10 +49,6 @@ def add():
     else:
         return redirect(url_for("index"))
 
-@app.route("/about", methods=["GET"])
-def about():
-    return render_template(
-        "about.html", pageTitle="About Us")
 
 @app.route("/about", methods=["GET"])
 def about():
