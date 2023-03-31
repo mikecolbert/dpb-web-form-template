@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for, flash
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "alsknq3rAg$GernaeasSEF^woei4r098HRFYUKioq73498"
-app.config["MESSAGE_TIMEOUT"] = 2
+
 
 friends_dict = [
     {"name": "Test", "flavor": "swirl", "read": "yes", "activities": "reading"}
