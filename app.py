@@ -6,7 +6,22 @@ friends_dict = [
     {"name": "Test", "flavor": "swirl", "read": "yes", "activities": "reading"}
 ]
 
+###### Custom Error Pages ######
+# Handling error 404 and displaying relevant web page
+@app.errorhandler(404)
+def not_found_error(error):
+    return render_template("404.html"), 404
 
+
+# Handling error 500 and displaying relevant web page
+@app.errorhandler(500)
+def internal_error(error):
+    return render_template("500.html"), 500
+
+
+###### Routes ######
+
+# Home page
 @app.route("/", methods=["GET", "POST"])
 def index():
     return render_template(
@@ -14,6 +29,7 @@ def index():
     )
 
 
+# /add route for form submission
 @app.route("/add", methods=["POST"])
 def add():
     print("inside add function")
@@ -50,6 +66,7 @@ def add():
         return redirect(url_for("index"))
 
 
+# About page
 @app.route("/about", methods=["GET"])
 def about():
     return render_template("about.html", pageTitle="Pair programming team")
