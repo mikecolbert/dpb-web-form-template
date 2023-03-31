@@ -11,7 +11,7 @@ Basic Python Flask web application where users can track their friends. I comple
 
 ---
 
-![My Friends application homepage](https://github.com/mikecolbert/dpb-web-form-template/blob/main/my-library.jpg?raw=true)
+![My Friends application homepage](https://github.com/mikecolbert/dpb-web-form-template/blob/readme/my-library.png)
 
 ---
 
