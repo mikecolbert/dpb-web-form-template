@@ -1,19 +1,13 @@
 {% extends 'base.html' %} {% block body %}
+
+<h2>Pair programming</h2>
+<hr />
 <main>
-  <h2>About page</h2>
-  <hr />
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veritatis
-    ratione nihil ipsum autem quam optio excepturi eius labore, praesentium
-    voluptas maiores dolores reprehenderit reiciendis aspernatur pariatur
-    cupiditate asperiores? Dignissimos.
-  </p>
+  <img
+    class="img-fluid"
+    src="{{ url_for('static', filename='images/pair.png') }}"
+    width="500"
+    alt="Mike & his pair programming partner"
+  />
 </main>
-{% endblock %} {% block body %}
-<aside>
-  <div class="ads">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, odit
-    minus? Sunt, quas nesciunt laboriosam eveniet similique enim, vero dolore,
-    quo vel nihil officia quae fugiat assumenda repellat accusantium ullam.
-  </div>
-</aside>
+{% endblock %}
