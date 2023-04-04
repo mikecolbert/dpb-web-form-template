@@ -47,5 +47,4 @@ Basic Python Flask web application where users can track their friends. I comple
 - [ ] Flash messages
 - [ ] API
 - [ ] #5
-- [ ] is:issue #4
 
