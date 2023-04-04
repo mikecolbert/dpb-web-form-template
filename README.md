@@ -40,11 +40,6 @@ Basic Python Flask web application where users can track their friends. I comple
 6. Use the application by visiting the URL in your web browser
 
 ### TO-DO
-
-Features to be added.
-- [ ] issue #4
-- [ ] 
-
 - [x] ~~Catch all selected activities in /add and put them into the list~~
 - [x] ~~About page~~
 - [ ] Styling using [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) framework
