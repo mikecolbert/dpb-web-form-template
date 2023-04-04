@@ -42,6 +42,8 @@ Basic Python Flask web application where users can track their friends. I comple
 ### TO-DO
 
 Features to be added.
+- [ ] issue #4
+- [ ] 
 
 - [x] ~~Catch all selected activities in /add and put them into the list~~
 - [x] ~~About page~~
@@ -49,4 +51,3 @@ Features to be added.
 - [ ] Custom error messages
 - [ ] Flash messages
 - [ ] API
-- [ ] https://github.com/mikecolbert/dpb-web-form-template/issues/4
