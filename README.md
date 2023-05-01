@@ -11,9 +11,9 @@ https://colbert-hw9.azurewebsites.net
 Basic Python Flask web application where users can track their friends. I completed this project as part of **BAIS:3300 - Digital Product Management** class to learn about dynamic web applications, user experience, and user interfaces.
 
 ---
-
+<kbd>
 <img src="https://github.com/mikecolbert/dpb-web-form-template/blob/main/my-friends.png" alt="Screenshot of My Friends application" title="My Friends application" style="border:1px black solid;">
-
+</kbd>
 
 ---
 
