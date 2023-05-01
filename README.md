@@ -12,7 +12,7 @@ Basic Python Flask web application where users can track their friends. I comple
 
 ---
 
-|-|
+
 | ![My Friends application](https://github.com/mikecolbert/dpb-web-form-template/blob/main/my-friends.png) |
 |-|
 
