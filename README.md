@@ -12,11 +12,7 @@ Basic Python Flask web application where users can track their friends. I comple
 
 ---
 
-<img
-  src="https://github.com/mikecolbert/dpb-web-form-template/blob/main/my-friends.png"
-  alt="Screenshot of My Friends application"
-  title="My Friends application"
-  style="display: inline-block; margin: 0 auto; border: 1px solid black; max-width: 300px">
+<img src="https://github.com/mikecolbert/dpb-web-form-template/blob/main/my-friends.png" alt="Screenshot of My Friends application" title="My Friends application" style="max-width: 100px">
 
 
 ---
